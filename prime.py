@@ -6,7 +6,7 @@ for i in range(lowerrange,upperrange):
     flag=0
     for j in range(2,i):
         if(i%j==0):
-            flag=1
+            flag=1# will signify that it is not a prime no
             break
     if(flag==0):
         print(i)
