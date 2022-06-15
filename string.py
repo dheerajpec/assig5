@@ -8,7 +8,7 @@ for i in a:
     for j in a:
         if(i==j):
             n=n+1
-            a[g]='----'
+            a[g]='----'# just to make it different from others for differentiating purpose
         g=g+1
     print(i," occured ",n," times")
     
